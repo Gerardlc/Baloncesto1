@@ -4,8 +4,8 @@
     <data-source name="MySQL - @localhost" uuid="03459fba-dd29-489c-939e-a75077d426d0">
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <schema-pattern>baloncesto.*</schema-pattern>
-      <default-schemas>baloncesto.*</default-schemas>
+      <schema-pattern>baloncesto1.*</schema-pattern>
+      <default-schemas>baloncesto1.*</default-schemas>
     </data-source>
   </component>
 </project>

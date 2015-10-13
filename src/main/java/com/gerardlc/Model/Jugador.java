@@ -31,8 +31,6 @@ public class Jugador {
     @Column
     protected String posiCampo;
 
-    @ManyToOne
-    private Equipo equipo;
 
 
     public Jugador(){}
@@ -57,7 +55,6 @@ public class Jugador {
                 ", numAsistencias=" + numAsistencias +
                 ", numRebotes=" + numRebotes +
                 ", posiCampo='" + posiCampo + '\'' +
-                ", equipo=" + equipo +
                 '}';
     }
 
@@ -117,11 +114,4 @@ public class Jugador {
         this.posiCampo = posiCampo;
     }
 
-    public Equipo getEquipo() {
-        return equipo;
-    }
-
-    public void setEquipo(Equipo equipo) {
-        this.equipo = equipo;
-    }
 }

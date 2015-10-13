@@ -13,8 +13,8 @@ public interface JugadorRepository extends PagingAndSortingRepository<Jugador, L
  public List<Jugador> findByNumCanastasGreaterThanEqual(int numCanastas);
  public List<Jugador> findByNumAsistenciasBetween(int minAsistencias,int maxAsistencias);
  public List<Jugador> findByPosiCampoEquals(String posiCampo);
- public List<Jugador> findByFechaLessThan(Date fecha);
- public List<Jugador> findByNumCanastasGreaterThanEqualAndFechaLessThan(int numCanastas,Date fecha);
+ public List<Jugador> findByFechaBefore(Date fecha);
+ public List<Jugador> findByNumCanastasGreaterThanEqualAndFechaBefore(int numCanastas,Date fecha);
 
 
 
